@@ -1,14 +1,13 @@
-package io.github.edevaldojr.msavaliadorcredito.application;
+package io.github.edevaldojr.msavaliadorcredito.application.controller;
 
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.github.edevaldojr.msavaliadorcredito.model.SituacaoCliente;
-import io.github.edevaldojr.msavaliadorcredito.service.AvaliadorCreditService;
+import io.github.edevaldojr.msavaliadorcredito.application.model.SituacaoCliente;
+import io.github.edevaldojr.msavaliadorcredito.application.service.AvaliadorCreditService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -23,7 +22,7 @@ public class AvaliadorCreditoController {
         return "ok";
     }
 
-    @GetMapping(value = "situacao-cliete", params = "cpf")
+    @GetMapping(value = "situacao-cliente", params = "cpf")
     public ResponseEntity<SituacaoCliente> consultaSituacaoCliente(@RequestParam("cpf") String cpf) {
         SituacaoCliente situacaoCliente = avaliadorCreditoService.obterSituacaoCliente(cpf);
         

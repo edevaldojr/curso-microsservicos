@@ -1,4 +1,4 @@
-package io.github.edevaldojr.msavaliadorcredito.model;
+package io.github.edevaldojr.msavaliadorcredito.application.model;
 
 import lombok.Data;
 
