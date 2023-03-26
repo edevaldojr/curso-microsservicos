@@ -1,9 +1,9 @@
 # curso-microsservicos
 
-# Conteudo do curso:
-Arquitetura Completa de Microservices
-Spring Cloud, Service Discovery, Api Gateway
-Spring Cloud Open Feign para comunicação Sícrona entre os Microservices
-Serviços de Mensageria com RabbitMQ
-Authorization Server com Keycloak
-Buildar Imagens Docker e criar containers a partir delas
+Conteudo do curso:\n
+Arquitetura Completa de Microservices\n
+Spring Cloud, Service Discovery, Api Gateway\n
+Spring Cloud Open Feign para comunicação Sícrona entre os Microservices\n
+Serviços de Mensageria com RabbitMQ\n
+Authorization Server com Keycloak\n
+Buildar Imagens Docker e criar containers a partir delas\n
