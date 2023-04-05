@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import lombok.Data;
 
 @Data
-public class DadosSolicitacaoCartao {
+public class DadosSolicitacaoEmissaoCartao {
     
     private Long idCartao;
     private String cpf;
